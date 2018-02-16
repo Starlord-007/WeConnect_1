@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#87c3f7"
+    tools:context="com.example.git_project.myproject_1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WeConnect"
+        android:textSize="45sp"
+        android:textColor="#000"
+        android:layout_margin="30dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et0"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border_edittext"
+        android:hint="Enrollment"
+
+        />
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/et1"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border_edittext"
+
+        android:hint="Password"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/textview_layout"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="----------------------------"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="35dp"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/textview_layout"
+        android:text="Signup"/>
+
+</LinearLayout>

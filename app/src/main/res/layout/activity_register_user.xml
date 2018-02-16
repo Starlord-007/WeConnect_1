@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#87c3f7"
+    tools:context="com.example.git_project.myproject_1.RegisterUserActivity">
+
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border_edittext"
+        android:hint="Email Id"
+        />
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/et3"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border_edittext"
+        android:hint="Password"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/textview_layout"
+        android:text="CREATE"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
