@@ -56,6 +56,10 @@ public class WeConnectHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_we_connect_home3);
 
+        // Database Ref...
+
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference().child("Users");
+
         //FireBase intialization
         mAuth=FirebaseAuth.getInstance();
         mAuthListener=new FirebaseAuth.AuthStateListener() {
@@ -108,9 +112,7 @@ public class WeConnectHome extends AppCompatActivity {
         };
 
         mAuth.addAuthStateListener(mAuthListener);
-        // Database Ref...
 
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference().child("Users");
 
 
 
