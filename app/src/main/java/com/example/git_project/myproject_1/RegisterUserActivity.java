@@ -49,7 +49,7 @@ public class RegisterUserActivity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
 
-                //will going to use this for knowing if the user is alredy logedin or not
+                //will going to use this for knowing if the user_profiles is alredy logedin or not
                 FirebaseUser user= firebaseAuth.getCurrentUser();
                 if (user!=null)
                 {
